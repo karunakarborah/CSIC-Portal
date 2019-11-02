@@ -1,0 +1,66 @@
+body{
+    overflow-x: hidden !important;
+    color: #505962 !important;
+    /* padding-bottom: -10px !important; */
+    /* margin-bottom: 0px !important; */
+}
+
+
+.btn-orange{
+    color: #ffffff !important;
+    background-color: rgb(226, 131, 43) !important;
+    border-color: rgb(226, 131, 43) !important;
+}
+
+.btn-orange:hover{    
+    background-color: chocolate !important;
+}
+
+.btn-orange:focus, .btn-orange.focus {
+    box-shadow: 0 0 0 0.2rem rgb(236, 177, 122) !important;
+  }
+    
+.btn-outline-orange{
+    color: rgb(226, 131, 43) !important;  
+    border-color: rgb(226, 131, 43) !important;
+}
+
+.btn-outline-orange:hover{    
+    color: #ffffff !important;
+    background-color: rgb(226, 131, 43) !important;
+}
+
+.btn-outline-orange:focus, .btn-outline-orange.focus {
+    box-shadow: 0 0 0 0.2rem rgb(236, 177, 122) !important;
+}
+
+.padding{
+    padding: 1rem;
+}
+
+.carousel-item{
+    height: 90vh !important;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.carousel-caption {
+    /* top: 10%;
+    bottom: auto; */
+    max-width: 70%;
+    text-align: center !important;
+    font-weight: bolder;
+    color: rgb(8, 8, 8) !important;
+    /* background-color: rgba(0, 0, 0, 0.50) !important; */
+    /* text-shadow: 5px 5px #b3b0b0 !important; */
+    position: relative !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    }
+
+
+    
+
