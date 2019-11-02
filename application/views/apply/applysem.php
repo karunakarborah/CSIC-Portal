@@ -164,26 +164,7 @@
             <input class="form-check-input" name="analysis[]" type="checkbox" id="inlineCheckbox2" value="EDX" <?php echo (isset($_POST['analysis']) && in_array("EDX", $_POST['analysis']))? 'checked="checked"':'';?>>
             <label class="form-check-label" for="inlineCheckbox2">EDX</label> &nbsp;            
         </div>
-
-
-        <!-- <script src="<?php echo base_url();?>assets/js/divs.js"></script>
-        <script src="<?php echo base_url();?>assets/js/ptable.js"></script>
-        <script src="<?php echo base_url();?>assets/js/ptldata.js"></script> 
-        <div class="fluid col-12 d-flex justify-content-around">       
-        <script language=javascript> document.write(PTgetTable())</script></br>
-        </div>
         
-        <input type="button" class="btn btn-sm btn-primary" onclick="getElements()" value="Get Selected Elements"/></br></br>
-
-        <input type="text" id="elements" name="elements" class="form-control"/>
-        <script language=javascript>
-        function getElements(){
-            var atoms=prompt(document.write(PTgetTable()));
-            document.getElementById("elements").value = PTgetSelectedList(1);
-        }
-        </script>  -->
-
-
     </div><!--- form row 6 end --->
 
     <div class="form-row"><!--- form row 7 start --->
